@@ -12,7 +12,9 @@ export class ImageGalleryItem extends Component {
     }).isRequired,
   };
 
-  state = { showModal: false, };
+  state = {
+    showModal: false,
+  };
 
   hendleShowModal = () => {
     this.setState(prevState => ({

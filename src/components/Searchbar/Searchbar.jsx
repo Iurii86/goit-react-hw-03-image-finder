@@ -22,6 +22,7 @@ export class Searchbar extends Component {
 
   handlerChange = e => {
     const keyword = e.currentTarget.value;
+
     this.setState({ keyword });
   };
 
@@ -49,6 +50,7 @@ export class Searchbar extends Component {
         },
       });
     }
+
     this.setState({ keyword: '' });
   };
 
